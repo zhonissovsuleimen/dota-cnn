@@ -4,6 +4,7 @@ Does not include default items (add +1 to each number to account for that)
 Number in brackets are related units that are shown in a preview. Otherwise those units are discarded (Beastmaster's boar sets are counted, Enigma's eidolons are not)
 Taunts, Herro effigies, "Costumes" are not counted
 Unusual variations of items with special effects are not counted.
+Does not account for different styles of the same item
 
 Abaddon
 30 * 20 * 20 * 20 * 23 
@@ -103,3 +104,57 @@ Dragon Knight (Dragon's Blood)
 
 Drow Ranger
 42 * 35 * 30 * 29 * 30 * 35 * 28 * 1
+
+Earth Spirit
+11 * 8 * 8 * 8 * 7
+
+Earthshaker
+26 * 22 * 21 * 20 * 1
+
+Elder Titan
+9 * 6 * 7 * 6 * 6 * 
+
+Ember Spirit
+16 * 16 * 14 * 13 * 13
+
+Enchantress
+14 * 15 * 14 * 14 * 12
+
+Enigma
+10 * 11 * 10 
+
+Faceless Void
+23 * 18 * 18 * 15 * 17
+
+Grimstroke
+7 * 7 * 6 * 6
+
+Gyrocopter
+15 * 13 * 12 * 12 * 15
+
+Hoodwink
+6 * 6 * 6 * 8
+
+Huskar
+16 * 16 * 13 * 13  * 14
+
+Invoker
+24 * 24 * 22 * 23 * 16
+
+Io
+3
+
+Jakiro
+8 * 8 * 8 * 7
+
+Juggernaut
+40 * 31 * 25 * 26 * 20
+
+Keeper of the Light
+15 * 12 * 11 * 15
+
+Kez
+0
+
+Kunkka
+27 * 21 * 19 * 21 * 16 * 18 * 16 * 16
