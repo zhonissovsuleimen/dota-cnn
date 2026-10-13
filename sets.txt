@@ -1,7 +1,7 @@
 Number of cosmetics per hero per type
 Notes:
 Does not include default items (add +1 to each number to account for that)
-Number in brackets are controlled units that are shown in a preview. Otherwise those units are discarded (Beastmaster's boar sets are counted, Enigma's eidolons are not)
+Number in brackets are related units that are shown in a preview. Otherwise those units are discarded (Beastmaster's boar sets are counted, Enigma's eidolons are not)
 Taunts, Herro effigies, "Costumes" are not counted
 Unusual variations of items with special effects are not counted.
 
@@ -52,3 +52,54 @@ Bristleback
 
 Broodmother
 20 * 22 * 22 * 18 * (21)
+
+Centaur Warrunner
+26 * 21 * 21 * 20 * 18 * 18 * 18
+
+Chaos Knight
+27 * 22 * 22 * 19 * 20
+
+Chen
+12 * 11 * 11 * 11 * 12 * 3
+
+Clinkz
+17 * 11 * 11 * 12 * 11
+
+Clockwerk
+25 * 27 * 24 * 25 * (19)
+
+Crystal Maiden (Classic)
+29 * 22 * 21 * 22 * 26
+
+Crystal Maiden (Wolf)
+4 * 4 * 4 * 4
+
+Dark Seer
+12 * 12 * 10 * 11 * 10
+
+Dark Willow
+13 * 11 * 11 * 12 * 12
+
+Dawnbreaker
+8 * 8 * 8 * 8
+
+Dazzle
+16 * 13 * 15 * 13 * 15
+
+Death Prophet
+35 * 31 * 30 * 30 * 14
+
+Disruptor
+21 * 18 * 18 * 20 * 18 * 24
+
+Doom
+32 * 21 * 21 * 20 * 20 * 20 * 20
+
+Dragon Knight (Classic)
+32 * 26 * 28 * 24 * 25 * 25
+
+Dragon Knight (Dragon's Blood)
+1 * 1 * 1
+
+Drow Ranger
+42 * 35 * 30 * 29 * 30 * 35 * 28 * 1
