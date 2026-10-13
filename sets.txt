@@ -1,4 +1,54 @@
 Number of cosmetics per hero per type
+Notes:
+Does not include default items (add +1 to each number to account for that)
+Number in brackets are controlled units that are shown in a preview. Otherwise those units are discarded (Beastmaster's boar sets are counted, Enigma's eidolons are not)
+Taunts, Herro effigies, "Costumes" are not counted
+Unusual variations of items with special effects are not counted.
+
 Abaddon
 30 * 20 * 20 * 20 * 23 
 
+Alchemist
+21 * 17 * 18 * 21 * 18 * 20 * 17
+
+Ancient Apparition
+12 * 12 * 12 * 11
+
+Anti-Mage (Classic)
+26 * 26 * 22 * 24 * 22 * 21 * 20
+
+Anti-Mage (Wei)
+10 * 10 * 10 * 10
+
+Arc Warden
+8 * 9 * 8 * 9
+
+Axe (Classic)
+49 * 36 * 32 * 32 * 21
+
+Axe (Automaton)
+0
+
+Bane
+7 * 7 * 6 * 6
+
+Batrider
+14 * 13 * 13 * 22
+
+Beastmaster 
+17 * 16 * 17 * 15 * 14 * (6 * 9)
+
+Bloodseeker
+22 * 18 * 22 * 17 * 16 * 16 * 15
+
+Bounty Hunter
+21 * 20 * 23 * 22 * 17 * 18 * 1
+
+Brewmaster
+16 * 15 * 8 * 9 * 11 * 10
+
+Bristleback
+10 * 11 * 11 * 9 * 9
+
+Broodmother
+20 * 22 * 22 * 18 * (21)
