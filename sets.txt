@@ -1,0 +1,4 @@
+Number of cosmetics per hero per type
+Abaddon
+30 * 20 * 20 * 20 * 23 
+
