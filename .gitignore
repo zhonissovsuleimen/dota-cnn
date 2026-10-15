@@ -1,0 +1,3 @@
+**/raw/*.mp4
+__pycache__/
+proof-of-concept/checkpoints/
