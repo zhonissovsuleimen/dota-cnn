@@ -2,9 +2,11 @@ Number of cosmetics per hero per type
 Notes:
 Does not include default items (add +1 to each number to account for that)
 Number in brackets are related units that are shown in a preview. Otherwise those units are discarded (Beastmaster's boar sets are counted, Enigma's eidolons are not)
+Cosmetics affecting other forms are not included (Lone druid's True Form, Terrorblade's Metamorphosis, Lycan's Shapeshift)
 Taunts, Herro effigies, "Costumes" are not counted
-Unusual variations of items with special effects are not counted.
+Unusual variations of items with special effects are not counted
 Does not account for different styles of the same item
+Legion Commander has conflicting items (all but 2 coflict with hero base). I think my math is right at the end, but not sure
 
 Abaddon
 30 * 20 * 20 * 20 * 23 
@@ -158,3 +160,33 @@ Kez
 
 Kunkka
 27 * 21 * 19 * 21 * 16 * 18 * 16 * 16
+
+Largo
+0
+
+Legion Commander
+30 * 28 * 28 * 26 * 26 * 14
+
+Leshrac
+9 * 12 * 9 * 9 * 8
+
+Lich
+16 *  16 * 15 * 15 * 12
+
+Lifestealer
+10 * 10 * 11 * 9
+
+Lina
+27 * 23 * 22 * 25
+
+Lion
+14 * 12 * 16 * 15 * 11
+
+Lone Druid
+6 * 9 * 8 * 8 * 10
+
+Luna
+30 * 30 * 29 * 27 * 28
+
+Lycan
+11 * 11 * 11 * 11 * 11
