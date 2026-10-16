@@ -39,6 +39,9 @@ fi
 TEMP_DIR="$(mktemp -d)"
 trap 'rm -rf -- "$TEMP_DIR"' EXIT
 
+total_new_train=0
+total_new_eval=0
+
 for video in "${videos[@]}"; do
   filename="${video##*/}"
   name="${filename%.mp4}"
@@ -57,27 +60,38 @@ for video in "${videos[@]}"; do
 
   mkdir -p "train/$hero" "eval/$hero"
 
-  train_count=0
-  eval_count=0
+  train_files=("train/$hero"/*.png)
+  eval_files=("eval/$hero"/*.png)
+
+  train_index=${#train_files[@]}
+  eval_index=${#eval_files[@]}
+
+  train_new=0
+  eval_new=0
 
   for frame in "${frames[@]}"; do
     if (( RANDOM % 100 < TRAIN_PERCENTAGE )); then
         split="train"
-        ((train_count += 1))
+        index=$train_index
+        ((train_index += 1))
+        ((train_new += 1))
     else
         split="eval"
-        ((eval_count += 1))
+        index=$eval_index
+        ((eval_index += 1))
+        ((eval_new += 1))
     fi
 
-    mv "$frame" "$split/$hero/${name}_${frame##*/}"
+    printf -v padded_index "%06d" "$index"
+    mv "$frame" "$split/$hero/${name}_frame_${padded_index}.png"
   done
 
   echo "  Hero: $hero"
-  echo "  Train: $train_count"
-  echo "  Eval: $eval_count"
+  echo "  Train: +$train_new (total: $train_index)"
+  echo "  Eval:  +$eval_new (total: $eval_index)"
+  echo ""
 done
 
 echo ""
-echo "Dataset preparation complete!"
-echo "Train images: $(find train -type f -name '*.png' | wc -l)"
-echo "Eval images:  $(find eval -type f -name '*.png' | wc -l)"
+echo "Total train images: $(find train -type f -name '*.png' | wc -l)"
+echo "Total eval images:  $(find eval -type f -name '*.png' | wc -l)"
