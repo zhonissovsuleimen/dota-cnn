@@ -54,22 +54,6 @@ for video in "${videos[@]}"; do
       "$TEMP_DIR/frame_%06d.png"
 
   frames=("$TEMP_DIR"/frame_*.png)
-  total="${#frames[@]}"
-
-  # randomization
-  for ((i=total-1; i>0; i--)); do
-      j=$((RANDOM % (i+1)))
-
-      tmp="${frames[i]}"
-      frames[i]="${frames[j]}"
-      frames[j]="$tmp"
-  done
-
-  # Calculate train/eval split
-  train_total=$((total * TRAIN_PERCENTAGE / 100))
-
-  (( train_total < 1 )) && train_total=1
-  (( train_total >= total )) && train_total=$((total-1))
 
   mkdir -p "train/$hero" "eval/$hero"
 
