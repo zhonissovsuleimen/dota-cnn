@@ -280,3 +280,60 @@ Pudge (Toy Butcher)
 
 Pugna
 9 * 8 * 12 * 8 * 9 * 8
+
+Queen of Pain
+25 * 22 * 25 * 22 * 5
+
+Razor
+16 * 18 * 15 * 15 * 15
+
+Riki
+21 * 20 * 19 * 19 * 15 * 15
+
+Ringmaster
+2 * 2 * 2 * 2
+
+Rubick
+28 * 22 * 25 * 21
+
+Sand King
+15 * 14 * 14 * 16 * 18
+
+Shadow Demon
+12 * 9 * 9 * 9
+
+Shadow Fiend
+12 * 13 * 12 * 2
+
+Shadow Shaman
+18 * 14 * 16 * 17 * 17 * (12)
+
+Silencer
+20 * 18 * 17 * 15 * 15 * 15
+
+Skywrath Mage
+26 * 22 * 24 * 19 * 19 * 19
+
+Slardar
+17 * 11 * 12 * 10
+
+Slark
+27 * 13 * 11 * 12 * 11
+
+Snapfire
+8 * 8 * 8 * 8 * 8
+
+Sniper
+32 * 27 * 24 * 25 * 30
+
+Spectre
+16 * 17 * 15 * 13 * 19
+
+Spirit Breaker
+24 * 23 * 20 * 18 * 20 * 20
+
+Storm Spirit
+20 * 14 * 16
+
+Sven
+45 * 28 * 28 * 27 * 27 * 23
