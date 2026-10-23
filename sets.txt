@@ -236,3 +236,47 @@ Night Stalker
 Nyx Assassin
 27 * 24 * 27 * 20
 
+Ogre Magi
+14 * 11 * 11 * 12 * 10 * 2
+
+Omniknight
+28 * 16 * 17 * 15 * 14 * 2
+
+Oracle (Classic)
+12 * 12 * 11 * 11
+
+Oracle (Automaton)
+0
+
+Outworld Destroyer
+14 * 9 * 8 * 8
+
+Pangolier
+6 * 7 * 6 * 6
+
+Phantom Assasin (Classic)
+36 * 24 * 25 * 23 * 22
+
+Phantom Assasin (Asan)
+3 * 3 * 3 * 3
+
+Phantom Lancer
+33 * 11 * 18 * 17 * 17
+
+Phoenix
+10 * 11
+
+Primal Beast
+9 * 9 * 9 * 9
+
+Puck
+15 * 16 * 17
+
+Pudge (Classic)
+46 * 30 * 34 * 30 * 31 * 31 * 27 * 2
+
+Pudge (Toy Butcher)
+5 * 4 * 5 * 4 * 4
+
+Pugna
+9 * 8 * 12 * 8 * 9 * 8
