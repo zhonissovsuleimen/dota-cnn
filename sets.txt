@@ -6,7 +6,7 @@ Cosmetics affecting other forms are not included (Lone druid's True Form, Terror
 Taunts, Herro effigies, "Costumes" are not counted
 Unusual variations of items with special effects are not counted
 Does not account for different styles of the same item
-Legion Commander has conflicting items (all but 2 coflict with hero base). I think my math is right at the end, but not sure
+Legion Commander has conflicting weapons with her arcana, so her arcana hero base is not counted
 Tiny's "Medium" and "Large" slots are not counted
 
 Abaddon
