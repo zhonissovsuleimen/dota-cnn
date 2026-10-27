@@ -73,6 +73,11 @@
           default = pkgs.mkShell {
             packages = [
               pkgs.ffmpeg
+              pkgs.rustc
+              pkgs.cargo
+              pkgs.rustfmt
+              pkgs.clippy
+              pkgs.rust-analyzer
               (pkgs.python3.withPackages (ps:
                 if pkgs.stdenv.hostPlatform.isLinux then [
                   # Match the CUDA 13.0 runtime used by the Linux wheels.

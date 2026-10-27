@@ -115,7 +115,7 @@ Earthshaker
 26 * 22 * 21 * 20 * 1
 
 Elder Titan
-9 * 6 * 7 * 6 * 6 * 
+9 * 6 * 7 * 6 * 6
 
 Ember Spirit
 16 * 16 * 14 * 13 * 13
